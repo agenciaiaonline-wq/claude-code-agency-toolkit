@@ -39,6 +39,12 @@ class ToolkitStructureTests(unittest.TestCase):
             self.assertEqual(len(hits), 1)
             self.assertEqual(module.scan_paths(ROOT), [])
 
+    def test_example_claude_template_exists(self) -> None:
+        tpl = ROOT / "examples" / "CLAUDE.example.md"
+        self.assertTrue(tpl.exists())
+        text = tpl.read_text(encoding="utf-8")
+        self.assertIn("architect-reviewer", text)
+
 
 if __name__ == "__main__":
     unittest.main()
