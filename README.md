@@ -1,6 +1,6 @@
 # Claude Code Agency Toolkit (Subagents, Skills, Hooks & MCP Configs)
 
-[![CI](https://img.shields.io/badge/CI-unittest-10b981?style=flat-square)](.github/workflows/ci.yml)
+[![Validate Claude Code Toolkit](https://github.com/agenciaiaonline-wq/claude-code-agency-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/agenciaiaonline-wq/claude-code-agency-toolkit/actions/workflows/ci.yml)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Agency_Templates-d97706?style=flat-square)](.claude/)
 [![MCP](https://img.shields.io/badge/MCP-Playwright_%2B_Context7-6366f1?style=flat-square)](mcp_config.example.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
